@@ -3,7 +3,7 @@ Contributors: a3rev, nguyencongtuan
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 5.6
 Tested up to: 6.0
-Stable tag: 2.8.0
+Stable tag: 2.8.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -66,7 +66,7 @@ The plugins email contact form has options to turn on GDPR compliance features. 
 
 = Templating =
 
-If you are a coder and wish to add your own style (that can’t be added from the plugins settings) the plugin supports template over rides. Copy any template file into your theme and apply custom CSS from there.
+If you are a coder and wish to add your own style (that canï¿½t be added from the plugins settings) the plugin supports template over rides. Copy any template file into your theme and apply custom CSS from there.
 
 = Premium Upgrade & Support =
 
@@ -76,7 +76,7 @@ Premium support and some nice advanced features are available with the [Email In
 
 = Contribute =
 
-If you’re interested in contributing to Email Inquiry & Cart Options for WooCommerce head over to the plugins [GitHub Repository](https://github.com/a3rev/woocommerce-email-inquiry-cart-options-lite) to find out how you can pitch in.
+If youï¿½re interested in contributing to Email Inquiry & Cart Options for WooCommerce head over to the plugins [GitHub Repository](https://github.com/a3rev/woocommerce-email-inquiry-cart-options-lite) to find out how you can pitch in.
 
 Want to add a new language translation? Great! You can contribute via [translate.wordpress.org.](https://translate.wordpress.org/projects/wp-plugins/woocommerce-email-inquiry-cart-options)
 
@@ -137,7 +137,7 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 * Tweak - Add filter on generate_border_style_css
 * Tweak - Add filter on generate_border_corner_css
 * Tweak - Test for compatibility with WooCommerce 6.5
-* Framework – Upgrade Plugin Framework to version 2.6.0
+* Framework ï¿½ Upgrade Plugin Framework to version 2.6.0
 * Security - Various code hardening tweaks.
 * Security - Escape all $-variable
 * Security - Sanitize all $_REQUEST, $_GET, $_POST
@@ -226,22 +226,22 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 * Tweak - Update JavaScript on plugin framework for work compatibility with latest version of jQuery
 * Fix - Replace .bind( event, handler ) by .on( event, handler ) for compatibility with latest version of jQuery
 * Fix - Replace :eq() Selector by .eq() for compatibility with latest version of jQuery
-* Fix - Replace .error() by .on( “error” ) for compatibility with latest version of jQuery
+* Fix - Replace .error() by .on( ï¿½errorï¿½ ) for compatibility with latest version of jQuery
 * Fix - Replace :first Selector by .first() for compatibility with latest version of jQuery
 * Fix - Replace :gt(0) Selector by .slice(1) for compatibility with latest version of jQuery
 * Fix - Remove jQuery.browser for compatibility with latest version of jQuery
 * Fix - Replace jQuery.isArray() by Array.isArray() for compatibility with latest version of jQuery
-* Fix - Replace jQuery.isFunction(x) by typeof x === “function” for compatibility with latest version of jQuery
-* Fix - Replace jQuery.isNumeric(x) by typeof x === “number” for compatibility with latest version of jQuery
+* Fix - Replace jQuery.isFunction(x) by typeof x === ï¿½functionï¿½ for compatibility with latest version of jQuery
+* Fix - Replace jQuery.isNumeric(x) by typeof x === ï¿½numberï¿½ for compatibility with latest version of jQuery
 * Fix - Replace jQuery.now() by Date.now() for compatibility with latest version of jQuery
 * Fix - Replace jQuery.parseJSON() by JSON.parse() for compatibility with latest version of jQuery
 * Fix - Remove jQuery.support for compatibility with latest version of jQuery
 * Fix - Replace jQuery.trim(x) by x.trim() for compatibility with latest version of jQuery
 * Fix - Replace jQuery.type(x) by typeof x for compatibility with latest version of jQuery
-* Fix - Replace .load( handler ) by .on( “load”, handler ) for compatibility with latest version of jQuery
+* Fix - Replace .load( handler ) by .on( ï¿½loadï¿½, handler ) for compatibility with latest version of jQuery
 * Fix - Replace .size() by .length for compatibility with latest version of jQuery
 * Fix - Replace .unbind( event ) by .off( event ) for compatibility with latest version of jQuery
-* Fix - Replace .unload( handler ) by .on( “unload”, handler ) for compatibility with latest version of jQuery
+* Fix - Replace .unload( handler ) by .on( ï¿½unloadï¿½, handler ) for compatibility with latest version of jQuery
 
 = 2.4.5 - 2020/12/10 =
 * Tweak - Test for compatibility with WooCommerce 4.8.0
